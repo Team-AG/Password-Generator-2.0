@@ -1,0 +1,197 @@
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// PASSWORD GENERATOR //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// HEAD SECTION WITH TITLE //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<head>
+
+  <meta charset="UTF-8" /> <!-- Meta requirements -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrew PW Gen</title> <!-- Title of Webpage-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><!-- Added Bootstrap links to style -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" /> <!-- My CSS Style Sheet link -->
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&dis=swap" rel="stylesheet" />  <!-- Google Fonts link -->
+
+</head>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// BODY SECTION //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+</body>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// TOP HEADER WITH CARD SECTIONS //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section>
+  </br>
+  <div>
+    <h1>LETS GENERATE YOUR SPECIAL PASSWORD</h1> <!-- Page heading -->
+  </div>
+  <div>
+    <div class="ag4"><!--rainbow text The function to generate -->
+      <p class="rainbow-text">PASSWORD SHOULD INCLUDE ALL:</p>
+      <p class="rainbow-text"> (Check at least one)</p>
+    </div>
+</section>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// #1 CARD SECTION LOWERCASE //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section>
+  <div class="grid-container col-lg-auto ag2">
+    <form id="userSelections" action="/" method="post">
+      <div class="card">
+          <div class="checkbox-container lowercase-container">
+            <label class="checkbox-label">
+              <input type="checkbox" name="containerLowercase" id="containerLowercase" value="containerLowercase">
+              <span class="checkbox-custom lowercase" aria-hidden="true"></span>
+            </label>
+            <div class="ag3 item1"> Difficulty Level: NOOB! </br> Wanna add lowercase characters? Scared you wont remember?
+            </div>
+          
+          </div>
+        
+       
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// #2 CARD SECTION UPPERCASE //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div class="card">
+          <div class="ag2 col-sm-5">
+            <div class="checkbox-container up-container">
+              <label class="checkbox-label">
+                <input type="checkbox" name="containerUp" id="containerUp" value="containerUp" />
+                <span class="checkbox-custom up"></span>
+              </label>
+              <p class="ag3 item2"> Difficulty Level: WEAKSAUCE!</br> Wanna add Uppercase characters? I remember weak once! Wait i don't!
+              </div>
+            </p>
+          </div>
+         </div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// #3 CARD SECTION NUMBERS //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+          <!--Check box num-->
+          <div class="card">
+            <div class="ag2 col-sm-5">
+              <div class="checkbox-container num-container">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="containerNum" id="containerNum" value="containerNum" />
+                  <span class="checkbox-custom num"></span>
+                </label>
+                <p class="ag3 item3"> Difficulty Level: NOVICE!</br> Wanna add some num characters, to remember those spec moments?!
+                </p>
+              </div>
+            </div>
+           </div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// #4 CARD SECTION SPECIAL CHARECTERS //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+            <!--Check box Special-->
+            <div class="card">
+              <div class="ag2 col-sm-5">
+                <div class="checkbox-container spec-container">
+                  <label class="checkbox-label">
+                    <input type="checkbox" name="containerSpec" id="containerSpec" value="containerSpec" />
+                    <span class="checkbox-custom spec"></span>
+                  </label>
+                    <p class="ag3 item4">Difficulty Level: PRO! </br> Wanna add special characters cuz why not, Lets make it a hard one!!>
+                 </p>
+                </div>
+              </div>
+            </div>
+</div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// INPUT PROMP FOR PASSWORD LENGTH and button command //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section>
+          <div class="container ag2">
+           <p class="ag3"> How Long do you want your your pass to be? </p>
+            <input style=" display:flex" type="text" name="passSize" id="passSize" placeholder="8-128" required />
+            </br> <!-- add a break point-->
+            </br>
+          </div>
+</section>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// button funtion to generate password  //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+</section>
+        <div>
+          <button type="button" class="pressMe" id="genPass"> Show me my new pass! <!-- button to generate password-->
+          </button>
+        </div>
+    
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// DISPLAY A GENERATED AREA FOR RANDOM USERSELECTION PASSWORD  //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div class="col-lg-auto"> <!-- pass is being displayed -->
+          <div id="disBox">
+            <p class="disTB"> Great Job! Your new code! Don't Forget to copy it & save it to your spec place! </p>
+          </div>
+          <div class="copybutton">
+            <button type="button" class="pressMe" id="copyTS">
+            </button>
+          </div>
+          </div>
+</section>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// //////
+///// JAVASCRIPT LINKS  //////
+///// //////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!-- Added Java Script-->
+<script src="./assets/javascript/javascript.js"></script>
+<script src="./assets/javascript/copy.js"></script>
+<script src=document.querySelector("body>
+  div > script: nth - child(4)
+  ")''
+
+
+  
+  </html>
